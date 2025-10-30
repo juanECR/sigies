@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 
 Route::get('/', HomeController::class);
+//Route::get('/', [HomeController::class, 'index']);
 
 
 Route::get('/post', [PostController::class, 'index']);

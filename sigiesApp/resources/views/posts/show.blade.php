@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>aqui se motsrara el post {{$post}}</h1>
+    @if (false)
+        <h2>hola bnro</h2>
+    @else
+        <h1>sadassad</h1>
+    @endif
+
 </body>
 </html>

@@ -13,6 +13,6 @@ class PostController extends Controller
         return "aqui post para create";
     }
     public function show($post){
-      return "aqui se mostrara el post de : $post";
+      return view('posts.show',compact('post'));
     }
 }
